@@ -1,5 +1,4 @@
-# EXAMPLE TRAINING CONFIG (rename it to training_config.toml)
-# Suitable for 2 x Nvidia A6000 (48 GB VRAM)
+# Suitable for 2 x NVIDIA RTX PRO 6000 (96 GB VRAM)
 
 model = "anakin87/lfm-2.6-ttt-sft"
 
@@ -9,10 +8,9 @@ id = "anakin87/tictactoe"
 [env.args]
 min_random_move_prob = 0.2
 max_random_move_prob = 0.7
-use_think = true
 max_turns = 7
 num_examples = 19200
-window_size = 32
+num_groups = 32
 
 
 [inference]
@@ -27,7 +25,6 @@ gpus = 1
 [trainer.args]
 run_name = "tictactoe"
 
-# patched
 use_liger = false
 
 # Batch configuration:
@@ -45,7 +42,6 @@ max_seq_len = 768  # Sequence length: max tokens for full conversation (prompt +
 
 max_steps = 600
 
-shuffle_dataset = false
 learning_rate = 5e-5
 
 # Hub configuration

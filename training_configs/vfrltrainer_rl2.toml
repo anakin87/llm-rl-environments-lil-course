@@ -1,6 +1,3 @@
-# EXAMPLE TRAINING CONFIG (rename it to training_config.toml)
-# Suitable for 2 x Nvidia A6000 (48 GB VRAM)
-
 model = "anakin87/mr-ttt-snk5-merged"
 
 [env]
@@ -9,10 +6,9 @@ id = "anakin87/tictactoe"
 [env.args]
 min_random_move_prob = 0.0
 max_random_move_prob = 0.25
-use_think = true
 max_turns = 7
 num_examples = 24000
-window_size = 60
+num_groups = 60
 
 
 [inference]
@@ -46,7 +42,6 @@ max_seq_len = 384  # Sequence length: max tokens for full conversation (prompt +
 
 max_steps = 400
 
-shuffle_dataset = false
 learning_rate = 3e-5
 temperature = 1.25
 
