@@ -1,6 +1,6 @@
 # Suitable for 2 x NVIDIA RTX PRO 6000 (96 GB VRAM)
 
-model = "anakin87/lfm-2.6-ttt-sft"
+model = "anakin87/LFM2-2.6B-ttt-sft"
 
 [env]
 id = "anakin87/tictactoe"
@@ -29,7 +29,7 @@ use_liger = false
 
 # Batch configuration:
 # - rollouts_per_example: completions generated per prompt (group size)
-# - micro_batch_size: rollouts processed per GPU per gradient accumulation step
+# - micro_batch_size: rollouts processed per GPU during a single forward/backward pass
 # - batch_size: total rollouts per training step (must be divisible by micro_batch_size and rollouts_per_example)
 micro_batch_size = 8
 rollouts_per_example = 8
@@ -47,7 +47,7 @@ learning_rate = 5e-5
 # Hub configuration
 # (https://huggingface.co/docs/transformers/v4.57.3/en/main_classes/trainer#transformers.TrainingArguments)
 push_to_hub = true
-hub_model_id = "anakin87/mr-ttt-snk5"
+hub_model_id = "anakin87/LFM2-2.6B-ttt-rl"
 hub_strategy = "every_save"
 save_strategy = "steps"
 save_steps = 5
