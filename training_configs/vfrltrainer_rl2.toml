@@ -1,4 +1,4 @@
-model = "anakin87/mr-ttt-snk5-merged"
+model = "anakin87/LFM2-2.6B-ttt-rl-merged"
 
 [env]
 id = "anakin87/tictactoe"
@@ -23,7 +23,6 @@ gpus = 1
 [trainer.args]
 run_name = "tictactoe"
 
-# patched
 use_liger = false
 
 
@@ -48,7 +47,7 @@ temperature = 1.25
 # Hub configuration
 # (https://huggingface.co/docs/transformers/v4.57.3/en/main_classes/trainer#transformers.TrainingArguments)
 push_to_hub = true
-hub_model_id = "anakin87/mr-ttt-harder-mixed4"
+hub_model_id = "anakin87/LFM2-2.6B-ttt-rl-2"
 hub_strategy = "every_save"
 save_strategy = "steps"
 save_steps = 5
