@@ -12,7 +12,7 @@ In this course, we'll build a Tic Tac Toe environment and use it to transform a 
 
 🤗🕹️ [Play against Mr. Tic Tac Toe](https://huggingface.co/spaces/anakin87/LFM2-2.6B-mr-tictactoe)
 
-![Play against Mr. Tic Tac Toe](./images/mr_tictactoe.png)
+[![Play against Mr. Tic Tac Toe](./images/mr_tictactoe.png)](https://huggingface.co/spaces/anakin87/LFM2-2.6B-mr-tictactoe)
 
 
 ## Who is this course for?
@@ -21,6 +21,8 @@ In this course, we'll build a Tic Tac Toe environment and use it to transform a 
 - **Curious Tinkerers**: You keep hearing about "reasoning models" and RL post-training, and you want to see how it works under the hood.
 
 ## Chapters
+
+**Start here:** [Chapter 1 - Agents, Environments, and LLMs](chapters/01.md)
 
 1. [Agents, Environments, and LLMs](chapters/01.md): mapping Reinforcement Learning concepts to the LLM domain.
 2. [Verifiers](chapters/02.md): an open-source library to build RL environments as software artifacts.

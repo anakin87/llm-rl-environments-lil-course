@@ -1,6 +1,9 @@
 # tictactoe
 
 ### Overview
+
+**For a detailed walkthrough of this environment and how to use it for training and evaluation, check out the [LLM RL Environments Lil Course](https://github.com/anakin87/llm-rl-environments-lil-course)**
+
 - **Environment ID**: `tictactoe`
 - **Short description**: Multi-turn Tic-Tac-Toe. The LLM plays as X against an opponent with configurable probability of moving randomly.
 - **Tags**: games, train, eval, tictactoe
