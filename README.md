@@ -83,9 +83,9 @@ In this course, we'll build a Tic Tac Toe environment and use it to transform a 
 ## Course author
 
 Stefano Fiorucci/anakin87
-- AI orchestration by day
-- Small Language Models post-training, RL tinkering by night
+- 🏗️ AI orchestration by day (Haystack developer)
+- Small Language Models post-training, RL tinkering by night 🌙
 
 I built this course from hands-on experimentation. If you spot any errors, please open a GitHub issue.
 
-Feel free to follow me on [my social profiles]: [GitHub](https://github.com/anakin87), [LinkedIn](https://www.linkedin.com/in/stefanofiorucci/), [X](https://x.com/theanakin87), [Hugging Face](https://huggingface.co/anakin87).
+Feel free to follow me on my social profiles: [GitHub](https://github.com/anakin87), [LinkedIn](https://www.linkedin.com/in/stefanofiorucci/), [X](https://x.com/theanakin87), [Hugging Face](https://huggingface.co/anakin87).
