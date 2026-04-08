@@ -11,6 +11,7 @@ In this course, we'll build a Tic Tac Toe environment and use it to transform a 
 
 ➡️ **Start here:** [Chapter 1 - Agents, Environments, and LLMs](chapters/01.md)
 
+🎥 [**Video walkthrough @ AI Engineer**](https://www.youtube.com/watch?v=71V3fTaUp2Q)
 
 🤗🕹️ [Play against Mr. Tic Tac Toe](https://huggingface.co/spaces/anakin87/LFM2-2.6B-mr-tictactoe)
 
